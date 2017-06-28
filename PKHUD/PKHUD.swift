@@ -102,14 +102,14 @@ open class PKHUD: NSObject {
         }
     }
 
-    open var effect: UIVisualEffect? {
-        get {
-            return container.frameView.effect
-        }
-        set {
-            container.frameView.effect = newValue
-        }
-    }
+//    open var effect: UIVisualEffect? {
+//        get {
+////            return container.frameView.effect
+//        }
+//        set {
+////            container.frameView.effect = newValue
+//        }
+//    }
 
     open func show(onView view: UIView? = nil) {
         let view: UIView = view ?? viewToPresentOn ?? UIApplication.shared.keyWindow!
@@ -132,6 +132,14 @@ open class PKHUD: NSObject {
         } else {
             showContent()
         }
+    }
+  
+    func setRoundLayer()  {
+      self.container.frameView.layer.cornerRadius = 20
+    }
+  
+    func setCustomLayer()  {
+      self.container.frameView.layer.cornerRadius = 9
     }
 
     func showContent() {

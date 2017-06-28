@@ -46,7 +46,7 @@ class DemoViewController: UIViewController {
     }
 
     @IBAction func showTextHUD(_ sender: AnyObject) {
-        HUD.flash(.label("Requesting Licence…"), delay: 2.0) { _ in
+        HUD.flash(.label("Requesting Licence… "), delay: 2.0) { _ in
             print("License Obtained.")
         }
     }

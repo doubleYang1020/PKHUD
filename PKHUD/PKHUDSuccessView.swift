@@ -25,7 +25,8 @@ open class PKHUDSuccessView: PKHUDSquareBaseView, PKHUDAnimating {
         layer.lineCap     = kCALineCapRound
         layer.lineJoin    = kCALineJoinRound
         layer.fillColor   = nil
-        layer.strokeColor = UIColor(red: 0.15, green: 0.15, blue: 0.15, alpha: 1.0).cgColor
+//        layer.strokeColor = UIColor(red: 0.15, green: 0.15, blue: 0.15, alpha: 1.0).cgColor
+        layer.strokeColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1.0).cgColor
         layer.lineWidth   = 6.0
         return layer
     }()

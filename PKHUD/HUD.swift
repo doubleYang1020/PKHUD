@@ -43,7 +43,10 @@ public final class HUD {
 
     // MARK: Public methods, PKHUD based
     public static func show(_ content: HUDContentType, onView view: UIView? = nil) {
+        PKHUD.sharedHUD.setCustomLayer()
         PKHUD.sharedHUD.contentView = contentView(content)
+
+      
         PKHUD.sharedHUD.show(onView: view)
     }
 
@@ -96,6 +99,7 @@ public final class HUD {
             return PKHUDRotatingImageView(image: image, title: title, subtitle: subtitle)
 
         case let .label(text):
+            PKHUD.sharedHUD.setRoundLayer()
             return PKHUDTextView(text: text)
         case .systemActivity:
             return PKHUDSystemActivityIndicatorView()
