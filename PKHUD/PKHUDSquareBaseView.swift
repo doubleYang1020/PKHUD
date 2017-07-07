@@ -12,7 +12,9 @@ import UIKit
 /// PKHUDSquareBaseView provides a square view, which you can subclass and add additional views to.
 open class PKHUDSquareBaseView: UIView {
 
-    static let defaultSquareBaseViewFrame = CGRect(origin: CGPoint.zero, size: CGSize(width: 156.0, height: 156.0))
+//    static let defaultSquareBaseViewFrame = CGRect(origin: CGPoint.zero, size: CGSize(width: 156.0, height: 156.0))
+  // change by huyy
+  static let defaultSquareBaseViewFrame = CGRect(origin: CGPoint.zero, size: CGSize(width: 128.0, height: 82.5))
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -55,7 +57,7 @@ open class PKHUDSquareBaseView: UIView {
     open let subtitleLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
-        label.font = UIFont.systemFont(ofSize: 14.0)
+        label.font = UIFont.systemFont(ofSize: 12.0)
 //        label.textColor = UIColor.black.withAlphaComponent(0.7)
         label.textColor = UIColor.white
         label.adjustsFontSizeToFitWidth = true
@@ -78,5 +80,11 @@ open class PKHUDSquareBaseView: UIView {
         titleLabel.frame = CGRect(origin: CGPoint.zero, size: CGSize(width: viewWidth, height: quarterHeight))
         imageView.frame = CGRect(origin: CGPoint(x:0.0, y:quarterHeight), size: CGSize(width: viewWidth, height: halfHeight))
         subtitleLabel.frame = CGRect(origin: CGPoint(x:0.0, y:threeQuarterHeight), size: CGSize(width: viewWidth, height: quarterHeight))
+      
+        titleLabel.frame = CGRect(origin: CGPoint.zero, size: CGSize(width: 0, height: 0))
+        imageView.frame = CGRect(origin: CGPoint(x:viewWidth/2 - 15, y:12), size: CGSize(width: 30, height: 30))
+        imageView.contentMode = .scaleAspectFit
+        subtitleLabel.frame = CGRect(origin: CGPoint(x:0.0, y:viewHeight - 42), size: CGSize(width: viewWidth, height: 40.5))
+
     }
 }

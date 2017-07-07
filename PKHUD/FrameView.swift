@@ -26,9 +26,10 @@ internal class FrameView: UIView {
 
     fileprivate func commonInit() {
 //      71 73 75
+//      47 48 49
       
 //        backgroundColor = UIColor(white: 0.8, alpha: 0.36)
-      backgroundColor = UIColor.init(red: 71/255.0, green: 73/255.0, blue: 75/255.0, alpha: 1)
+      backgroundColor = UIColor.init(red: 47/255.0, green: 48/255.0, blue: 49/255.0, alpha: 1)
         layer.cornerRadius = 9.0
         layer.masksToBounds = true
 
