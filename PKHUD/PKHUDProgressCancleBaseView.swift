@@ -43,7 +43,7 @@ class PKHUDProgressCancleBaseView: UIView {
   }
   open let lineView: UIView = {
     let lineView = UIImageView()
-    lineView.backgroundColor = UIColor.init(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 0.5)
+    lineView.backgroundColor = UIColor.init(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 0.2)
     return lineView
   }()
   
