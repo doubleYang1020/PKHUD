@@ -38,7 +38,8 @@ class DemoViewController: UIViewController {
     }
 
     @IBAction func showCustomProgressHUD(_ sender: AnyObject) {
-        HUD.flash(.rotatingImage(UIImage(named: "progress")), delay: 2.0)
+//        HUD.flash(.rotatingImage(UIImage(named: "progress")), delay: 2.0)
+      HUD.flash(.labeledRotatingImage(image: UIImage(named: "progress"), title: "Tutke", subtitle: "subtitle"), delay: 1.0)
     }
 
     @IBAction func showAnimatedStatusProgressHUD(_ sender: AnyObject) {
@@ -46,9 +47,13 @@ class DemoViewController: UIViewController {
     }
 
     @IBAction func showTextHUD(_ sender: AnyObject) {
-        HUD.flash(.label("Requesting Licence… "), delay: 2.0) { _ in
-            print("License Obtained.")
-        }
+//        HUD.flash(.label("Requesting Licence… "), delay: 2.0) { _ in
+//            print("License Obtained.")
+//        }
+      
+      HUD.flash(.labeledProgressAndCancleBtn(title: "Title", subtitle: "Subtitle"), delay: 2.0)
+      
+      
     }
 
     /*

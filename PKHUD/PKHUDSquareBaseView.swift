@@ -15,6 +15,7 @@ open class PKHUDSquareBaseView: UIView {
 //    static let defaultSquareBaseViewFrame = CGRect(origin: CGPoint.zero, size: CGSize(width: 156.0, height: 156.0))
   // change by huyy
   static let defaultSquareBaseViewFrame = CGRect(origin: CGPoint.zero, size: CGSize(width: 128.0, height: 82.5))
+//  static let defaultSquareBaseViewFrame = CGRect(origin: CGPoint.zero, size: CGSize(width: 170.0, height: 112.0))
 
     public override init(frame: CGRect) {
         super.init(frame: frame)

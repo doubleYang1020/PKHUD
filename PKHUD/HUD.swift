@@ -21,6 +21,8 @@ public enum HUDContentType {
     case labeledProgress(title: String?, subtitle: String?)
     case labeledImage(image: UIImage?, title: String?, subtitle: String?)
     case labeledRotatingImage(image: UIImage?, title: String?, subtitle: String?)
+  
+    case labeledProgressAndCancleBtn(title: String?, subtitle: String?)
 
     case label(String?)
     case systemActivity
@@ -93,6 +95,9 @@ public final class HUD {
             return PKHUDErrorView(title: title, subtitle: subtitle)
         case let .labeledProgress(title, subtitle):
             return PKHUDProgressView(title: title, subtitle: subtitle)
+        case let .labeledProgressAndCancleBtn(title, subtitle):
+            return PKHUDProgressCancleView(title: title, subtitle: subtitle)
+        
         case let .labeledImage(image, title, subtitle):
             return PKHUDSquareBaseView(image: image, title: title, subtitle: subtitle)
         case let .labeledRotatingImage(image, title, subtitle):
