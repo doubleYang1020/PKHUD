@@ -8,11 +8,12 @@
 
 import UIKit
 import QuartzCore
+import Lottie
 
 class PKHUDProgressCancleView: PKHUDProgressCancleBaseView,PKHUDAnimating {
   
   public init(title: String? = nil, subtitle: String? = nil) {
-    super.init(image: PKHUDAssets.progressActivityImage, title: title, subtitle: subtitle)
+    super.init(image: PKHUDAssets.progressLotLoding, title: title, subtitle: subtitle)
   }
   
   public required init?(coder aDecoder: NSCoder) {
@@ -20,7 +21,8 @@ class PKHUDProgressCancleView: PKHUDProgressCancleBaseView,PKHUDAnimating {
   }
   
   public func startAnimation() {
-    imageView.layer.add(PKHUDAnimation.discreteRotation, forKey: "progressAnimation")
+//    imageView.layer.add(PKHUDAnimation.discreteRotation, forKey: "progressAnimation")
+    imageView.play()
   }
   
   public func stopAnimation() {

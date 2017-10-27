@@ -24,6 +24,8 @@ public enum HUDContentType {
   
     case labeledProgressAndCancleBtn(title: String?, subtitle: String?)
 
+    case labeledLotProgress(title: String?, subtitle: String?)
+    
     case label(String?)
     case systemActivity
 }
@@ -97,6 +99,10 @@ public final class HUD {
             return PKHUDProgressView(title: title, subtitle: subtitle)
         case let .labeledProgressAndCancleBtn(title, subtitle):
             return PKHUDProgressCancleView(title: title, subtitle: subtitle)
+            
+            
+        case let .labeledLotProgress(title, subtitle):
+            return PKHUDLOTProgressView(title: title, subtitle: subtitle)
         
         case let .labeledImage(image, title, subtitle):
             return PKHUDSquareBaseView(image: image, title: title, subtitle: subtitle)
@@ -108,6 +114,7 @@ public final class HUD {
             return PKHUDTextView(text: text)
         case .systemActivity:
             return PKHUDSystemActivityIndicatorView()
+
         }
     }
 }

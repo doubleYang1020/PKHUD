@@ -43,7 +43,8 @@ class DemoViewController: UIViewController {
     }
 
     @IBAction func showAnimatedStatusProgressHUD(_ sender: AnyObject) {
-        HUD.flash(.labeledProgress(title: "Title", subtitle: "Subtitle"), delay: 2.0)
+//        HUD.flash(.labeledProgress(title: "Title", subtitle: "Subtitle"), delay: 2.0)
+        HUD.flash(.labeledLotProgress(title: "Title", subtitle: "Subtitle"), delay: 2.0)
     }
 
     @IBAction func showTextHUD(_ sender: AnyObject) {

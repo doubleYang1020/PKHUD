@@ -11,9 +11,16 @@
 		12CE19F41E25784D0062D873 /* PKHUDDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE19F31E25784D0062D873 /* PKHUDDemoUITests.swift */; };
 		12CE19FD1E2578680062D873 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F996321E19514FD8001F73CA /* PKHUD.framework */; };
 		3097AF3A1C4843AE007DD42B /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3097AF391C4843AE007DD42B /* PKHUDRotatingImageView.swift */; };
+		46E7AAAC39271F0F4AB9599F /* Pods_PKHUD_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677D7F44F68DF6B6BA497B55 /* Pods_PKHUD_Demo.framework */; };
 		640011571C5B6C080013F32B /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640011551C5B6C080013F32B /* HUD.swift */; };
+		686619D7E0453021BCE8B8A6 /* Pods_PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE678B64EF98ED40AA175F6D /* Pods_PKHUD.framework */; };
+		8307080F5750EB99C88EBD02 /* Pods_PKHUDDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69C29B43F4B4A9269840F83 /* Pods_PKHUDDemoUITests.framework */; };
 		F27FE87C1F6BBF34007382A3 /* PKHUDProgressCancleBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE87B1F6BBF34007382A3 /* PKHUDProgressCancleBaseView.swift */; };
 		F27FE87E1F6BBFD4007382A3 /* PKHUDProgressCancleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE87D1F6BBFD4007382A3 /* PKHUDProgressCancleView.swift */; };
+		F2C647761FA2D7C000BF517C /* newloading.json in Resources */ = {isa = PBXBuildFile; fileRef = F2C647751FA2D79B00BF517C /* newloading.json */; };
+		F2C6477C1FA2DA6000BF517C /* PKHUDLOTProgressBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C6477B1FA2DA6000BF517C /* PKHUDLOTProgressBaseView.swift */; };
+		F2C6477E1FA2DB9500BF517C /* PKHUDLOTProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C6477D1FA2DB9500BF517C /* PKHUDLOTProgressView.swift */; };
+		F2C647801FA2DE3400BF517C /* newloading.json in Resources */ = {isa = PBXBuildFile; fileRef = F2C6477F1FA2DE3000BF517C /* newloading.json */; };
 		F908BEC01BB849290015E5A8 /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908BEBF1BB849290015E5A8 /* PKHUDSuccessView.swift */; };
 		F908BEC31BB84D0B0015E5A8 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908BEC21BB84D0B0015E5A8 /* PKHUDAnimating.swift */; };
 		F908BEC51BB852C60015E5A8 /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908BEC41BB852C60015E5A8 /* PKHUDErrorView.swift */; };
@@ -88,10 +95,22 @@
 		12CE19F11E25784C0062D873 /* PKHUDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKHUDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CE19F31E25784D0062D873 /* PKHUDDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDDemoUITests.swift; sourceTree = "<group>"; };
 		12CE19F51E25784D0062D873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2543119773C6EDA953F7B259 /* Pods-PKHUDDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKHUDDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKHUDDemoUITests/Pods-PKHUDDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3097AF391C4843AE007DD42B /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
+		60F91108D896355EF2A92461 /* Pods-PKHUD Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKHUD Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKHUD Demo/Pods-PKHUD Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		640011551C5B6C080013F32B /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		677D7F44F68DF6B6BA497B55 /* Pods_PKHUD_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKHUD_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7C9E1EA3E46A1EC1EBE01E /* Pods-PKHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKHUD/Pods-PKHUD.debug.xcconfig"; sourceTree = "<group>"; };
+		AAC761EC40EB5E05FE5A864A /* Pods-PKHUD Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKHUD Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKHUD Demo/Pods-PKHUD Demo.release.xcconfig"; sourceTree = "<group>"; };
+		BE678B64EF98ED40AA175F6D /* Pods_PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69C29B43F4B4A9269840F83 /* Pods_PKHUDDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKHUDDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03F8594C06BE601BC56EF08 /* Pods-PKHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKHUD/Pods-PKHUD.release.xcconfig"; sourceTree = "<group>"; };
 		F27FE87B1F6BBF34007382A3 /* PKHUDProgressCancleBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDProgressCancleBaseView.swift; sourceTree = "<group>"; };
 		F27FE87D1F6BBFD4007382A3 /* PKHUDProgressCancleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDProgressCancleView.swift; sourceTree = "<group>"; };
+		F2C647751FA2D79B00BF517C /* newloading.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = newloading.json; sourceTree = "<group>"; };
+		F2C6477B1FA2DA6000BF517C /* PKHUDLOTProgressBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDLOTProgressBaseView.swift; sourceTree = "<group>"; };
+		F2C6477D1FA2DB9500BF517C /* PKHUDLOTProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDLOTProgressView.swift; sourceTree = "<group>"; };
+		F2C6477F1FA2DE3000BF517C /* newloading.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = newloading.json; sourceTree = "<group>"; };
 		F908BEBF1BB849290015E5A8 /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDSuccessView.swift; sourceTree = "<group>"; };
 		F908BEC21BB84D0B0015E5A8 /* PKHUDAnimating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDAnimating.swift; sourceTree = "<group>"; };
 		F908BEC41BB852C60015E5A8 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDErrorView.swift; sourceTree = "<group>"; };
@@ -116,6 +135,7 @@
 		F996324C19514FEF001F73CA /* WindowRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowRootViewController.swift; sourceTree = "<group>"; };
 		F996325419514FF3001F73CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F996325819515052001F73CA /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		FD427F470A670298E96D66DA /* Pods-PKHUDDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKHUDDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKHUDDemoUITests/Pods-PKHUDDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12CE19FD1E2578680062D873 /* PKHUD.framework in Frameworks */,
+				8307080F5750EB99C88EBD02 /* Pods_PKHUDDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F996323319514FD8001F73CA /* PKHUD.framework in Frameworks */,
+				46E7AAAC39271F0F4AB9599F /* Pods_PKHUD_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686619D7E0453021BCE8B8A6 /* Pods_PKHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +177,29 @@
 			path = PKHUDDemoUITests;
 			sourceTree = "<group>";
 		};
+		3DB94CEAB47E4FC281D520CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE678B64EF98ED40AA175F6D /* Pods_PKHUD.framework */,
+				677D7F44F68DF6B6BA497B55 /* Pods_PKHUD_Demo.framework */,
+				D69C29B43F4B4A9269840F83 /* Pods_PKHUDDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DBB593B838A7BC9711F6829 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C7C9E1EA3E46A1EC1EBE01E /* Pods-PKHUD.debug.xcconfig */,
+				F03F8594C06BE601BC56EF08 /* Pods-PKHUD.release.xcconfig */,
+				60F91108D896355EF2A92461 /* Pods-PKHUD Demo.debug.xcconfig */,
+				AAC761EC40EB5E05FE5A864A /* Pods-PKHUD Demo.release.xcconfig */,
+				FD427F470A670298E96D66DA /* Pods-PKHUDDemoUITests.debug.xcconfig */,
+				2543119773C6EDA953F7B259 /* Pods-PKHUDDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F908BEC11BB84D010015E5A8 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +213,7 @@
 			children = (
 				F908BEC11BB84D010015E5A8 /* Protocol */,
 				F935B15C1B2B8C20003C3734 /* PKHUDSquareBaseView.swift */,
+				F2C6477B1FA2DA6000BF517C /* PKHUDLOTProgressBaseView.swift */,
 				F27FE87B1F6BBF34007382A3 /* PKHUDProgressCancleBaseView.swift */,
 				F935B15E1B2B8C7E003C3734 /* PKHUDWideBaseView.swift */,
 				F935B1601B2B8C8E003C3734 /* PKHUDTextView.swift */,
@@ -175,6 +222,7 @@
 				F908BEC41BB852C60015E5A8 /* PKHUDErrorView.swift */,
 				F908BEC71BB85EA70015E5A8 /* PKHUDProgressView.swift */,
 				F27FE87D1F6BBFD4007382A3 /* PKHUDProgressCancleView.swift */,
+				F2C6477D1FA2DB9500BF517C /* PKHUDLOTProgressView.swift */,
 				12010C891C3D0E8D005DC6FC /* PKHUDAnimation.swift */,
 				3097AF391C4843AE007DD42B /* PKHUDRotatingImageView.swift */,
 			);
@@ -188,6 +236,8 @@
 				F996321F19514FD8001F73CA /* PKHUD */,
 				12CE19F21E25784D0062D873 /* PKHUDDemoUITests */,
 				F99631FD19514FAC001F73CA /* Products */,
+				4DBB593B838A7BC9711F6829 /* Pods */,
+				3DB94CEAB47E4FC281D520CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,6 +254,7 @@
 		F99631FE19514FAC001F73CA /* PKHUD Demo */ = {
 			isa = PBXGroup;
 			children = (
+				F2C647751FA2D79B00BF517C /* newloading.json */,
 				F996320119514FAC001F73CA /* AppDelegate.swift */,
 				F996325819515052001F73CA /* DemoViewController.swift */,
 				F935B1571B2B8088003C3734 /* Storyboard.storyboard */,
@@ -230,6 +281,7 @@
 				F996322219514FD8001F73CA /* PKHUD.h */,
 				F996324819514FEF001F73CA /* PKHUD.swift */,
 				F996324619514FEF001F73CA /* PKHUDAssets.swift */,
+				F2C6477F1FA2DE3000BF517C /* newloading.json */,
 				F935B15B1B2B8C03003C3734 /* Content Views */,
 				F9DB0B91197DB78B00385ACE /* Internal */,
 				F996325419514FF3001F73CA /* Images.xcassets */,
@@ -274,9 +326,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12CE19FA1E25784D0062D873 /* Build configuration list for PBXNativeTarget "PKHUDDemoUITests" */;
 			buildPhases = (
+				667BEC5D2C3B2CC600D251AD /* [CP] Check Pods Manifest.lock */,
 				12CE19ED1E25784C0062D873 /* Sources */,
 				12CE19EE1E25784C0062D873 /* Frameworks */,
 				12CE19EF1E25784C0062D873 /* Resources */,
+				42239B4B44F3B3CB507C9E06 /* [CP] Embed Pods Frameworks */,
+				70D844FFF795C4B1ED913C29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,11 +348,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F996321319514FAD001F73CA /* Build configuration list for PBXNativeTarget "PKHUD Demo" */;
 			buildPhases = (
+				F75B6D62E8D097143CCC8D74 /* [CP] Check Pods Manifest.lock */,
 				F99631F819514FAC001F73CA /* Sources */,
 				F99631F919514FAC001F73CA /* Frameworks */,
 				F99631FA19514FAC001F73CA /* Resources */,
 				F996323A19514FD8001F73CA /* Embed Frameworks */,
 				120437181E09E1A400D7C7A5 /* SwiftLint */,
+				BF93BB27AB66DAC636D9A15F /* [CP] Embed Pods Frameworks */,
+				0EEFA238ACE1EDC5EFD3A0ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,10 +372,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F996323719514FD8001F73CA /* Build configuration list for PBXNativeTarget "PKHUD" */;
 			buildPhases = (
+				845C040AEA129E2DF84102D5 /* [CP] Check Pods Manifest.lock */,
 				F996321919514FD8001F73CA /* Sources */,
 				F996321A19514FD8001F73CA /* Frameworks */,
 				F996321B19514FD8001F73CA /* Headers */,
 				F996321C19514FD8001F73CA /* Resources */,
+				2367791DC1D81AEB27522C40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -350,7 +410,7 @@
 					};
 					F996321D19514FD8001F73CA = {
 						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -388,6 +448,7 @@
 				F935B15A1B2B865A003C3734 /* Launch Screen.storyboard in Resources */,
 				F996320419514FAD001F73CA /* Images.xcassets in Resources */,
 				F935B1581B2B8088003C3734 /* Storyboard.storyboard in Resources */,
+				F2C647761FA2D7C000BF517C /* newloading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,12 +457,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				F996325519514FF3001F73CA /* Images.xcassets in Resources */,
+				F2C647801FA2DE3400BF517C /* newloading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0EEFA238ACE1EDC5EFD3A0ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PKHUD Demo/Pods-PKHUD Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		120437181E09E1A400D7C7A5 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,6 +492,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+		2367791DC1D81AEB27522C40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PKHUD/Pods-PKHUD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42239B4B44F3B3CB507C9E06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PKHUDDemoUITests/Pods-PKHUDDemoUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PKHUDDemoUITests/Pods-PKHUDDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		667BEC5D2C3B2CC600D251AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PKHUDDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D844FFF795C4B1ED913C29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PKHUDDemoUITests/Pods-PKHUDDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845C040AEA129E2DF84102D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PKHUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF93BB27AB66DAC636D9A15F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PKHUD Demo/Pods-PKHUD Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PKHUD Demo/Pods-PKHUD Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F75B6D62E8D097143CCC8D74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PKHUD Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -448,6 +645,8 @@
 				F908BEC31BB84D0B0015E5A8 /* PKHUDAnimating.swift in Sources */,
 				F908BEC81BB85EA70015E5A8 /* PKHUDProgressView.swift in Sources */,
 				F908BEC01BB849290015E5A8 /* PKHUDSuccessView.swift in Sources */,
+				F2C6477E1FA2DB9500BF517C /* PKHUDLOTProgressView.swift in Sources */,
+				F2C6477C1FA2DA6000BF517C /* PKHUDLOTProgressBaseView.swift in Sources */,
 				F908BEC51BB852C60015E5A8 /* PKHUDErrorView.swift in Sources */,
 				F27FE87C1F6BBF34007382A3 /* PKHUDProgressCancleBaseView.swift in Sources */,
 				F935B15D1B2B8C20003C3734 /* PKHUDSquareBaseView.swift in Sources */,
@@ -489,6 +688,7 @@
 /* Begin XCBuildConfiguration section */
 		12CE19F81E25784D0062D873 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD427F470A670298E96D66DA /* Pods-PKHUDDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -507,6 +707,7 @@
 		};
 		12CE19F91E25784D0062D873 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2543119773C6EDA953F7B259 /* Pods-PKHUDDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -614,6 +815,7 @@
 		};
 		F996321419514FAD001F73CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F91108D896355EF2A92461 /* Pods-PKHUD Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -628,6 +830,7 @@
 		};
 		F996321519514FAD001F73CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC761EC40EB5E05FE5A864A /* Pods-PKHUD Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -642,6 +845,7 @@
 		};
 		F996323819514FD8001F73CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7C9E1EA3E46A1EC1EBE01E /* Pods-PKHUD.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -671,6 +875,7 @@
 		};
 		F996323919514FD8001F73CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03F8594C06BE601BC56EF08 /* Pods-PKHUD.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

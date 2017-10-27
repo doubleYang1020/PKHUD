@@ -8,7 +8,7 @@
 //
 
 import UIKit
-
+import Lottie
 /// PKHUDAssets provides a set of default images, that can be supplied to the PKHUD's content views.
 open class PKHUDAssets: NSObject {
 
@@ -16,6 +16,7 @@ open class PKHUDAssets: NSObject {
     open class var checkmarkImage: UIImage { return PKHUDAssets.bundledImage(named: "checkmark") }
     open class var progressActivityImage: UIImage { return PKHUDAssets.bundledImage(named: "progress_activity") }
     open class var progressCircularImage: UIImage { return PKHUDAssets.bundledImage(named: "progress_circular") }
+    open class var progressLotLoding:LOTAnimationView {return LOTAnimationView(name: "newloading") }
 
     internal class func bundledImage(named name: String) -> UIImage {
         let bundle = Bundle(for: PKHUDAssets.self)
