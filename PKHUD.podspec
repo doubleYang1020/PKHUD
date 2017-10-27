@@ -3,8 +3,6 @@ Pod::Spec.new do |s|
   s.module_name               = 'PKHUD'
   s.version                   = '4.2.3'
   s.summary                   = 'A Swift 3 based reimplementation of the Apple HUD (Volume, Ringer, Rotation,…) for iOS 8 and up'
-  s.description              = 'https://github.com/airbnb/lottie-ios.git'
-  s.dependency               = 'lottie-ios'
   s.homepage                  = 'https://github.com/pkluz/PKHUD'
   s.license                   = 'MIT'
   s.author                    = { 'Philip Kluz' => 'Philip.Kluz@gmail.com' }
@@ -14,4 +12,5 @@ Pod::Spec.new do |s|
   s.source                    = { :git => 'https://github.com/pkluz/PKHUD.git', :tag => s.version.to_s }
   s.source_files              = 'PKHUD/**/*.{h,swift}'
   s.resources                 = 'PKHUD/*.xcassets'
+  s.dependency               = 'lottie-ios'
 end
