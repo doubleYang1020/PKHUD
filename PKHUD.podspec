@@ -12,5 +12,4 @@ Pod::Spec.new do |s|
   s.source                    = { :git => 'https://github.com/pkluz/PKHUD.git', :tag => s.version.to_s }
   s.source_files              = 'PKHUD/**/*.{h,swift}'
   s.resources                 = 'PKHUD/*.xcassets'
-  s.dependency               = 'lottie-ios'
 end
