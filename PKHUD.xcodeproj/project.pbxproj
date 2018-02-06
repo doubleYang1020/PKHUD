@@ -15,12 +15,19 @@
 		640011571C5B6C080013F32B /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640011551C5B6C080013F32B /* HUD.swift */; };
 		686619D7E0453021BCE8B8A6 /* Pods_PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE678B64EF98ED40AA175F6D /* Pods_PKHUD.framework */; };
 		8307080F5750EB99C88EBD02 /* Pods_PKHUDDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69C29B43F4B4A9269840F83 /* Pods_PKHUDDemoUITests.framework */; };
+		F2421B261FBE81B70082C1FF /* loadingForPlanetsOrbit.json in Resources */ = {isa = PBXBuildFile; fileRef = F2421B241FBE81B70082C1FF /* loadingForPlanetsOrbit.json */; };
+		F2421B281FBE82550082C1FF /* loadingForHourglass.json in Resources */ = {isa = PBXBuildFile; fileRef = F2C6477F1FA2DE3000BF517C /* loadingForHourglass.json */; };
+		F2421B2A1FBE825A0082C1FF /* loadingForPlanetsOrbit.json in Resources */ = {isa = PBXBuildFile; fileRef = F2421B241FBE81B70082C1FF /* loadingForPlanetsOrbit.json */; };
+		F2421B2C1FBE8BF60082C1FF /* PKHUDPgsCancleTypeForPlanetsBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2421B2B1FBE8BF60082C1FF /* PKHUDPgsCancleTypeForPlanetsBaseView.swift */; };
+		F2421B2D1FBE8BF60082C1FF /* PKHUDPgsCancleTypeForPlanetsBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2421B2B1FBE8BF60082C1FF /* PKHUDPgsCancleTypeForPlanetsBaseView.swift */; };
+		F2421B2F1FBE96400082C1FF /* PKHUDPgsTypeForPlanetsBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2421B2E1FBE96400082C1FF /* PKHUDPgsTypeForPlanetsBaseView.swift */; };
+		F2421B301FBE96400082C1FF /* PKHUDPgsTypeForPlanetsBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2421B2E1FBE96400082C1FF /* PKHUDPgsTypeForPlanetsBaseView.swift */; };
 		F27FE87C1F6BBF34007382A3 /* PKHUDProgressCancleBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE87B1F6BBF34007382A3 /* PKHUDProgressCancleBaseView.swift */; };
 		F27FE87E1F6BBFD4007382A3 /* PKHUDProgressCancleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FE87D1F6BBFD4007382A3 /* PKHUDProgressCancleView.swift */; };
 		F2C647761FA2D7C000BF517C /* newloading.json in Resources */ = {isa = PBXBuildFile; fileRef = F2C647751FA2D79B00BF517C /* newloading.json */; };
 		F2C6477C1FA2DA6000BF517C /* PKHUDLOTProgressBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C6477B1FA2DA6000BF517C /* PKHUDLOTProgressBaseView.swift */; };
 		F2C6477E1FA2DB9500BF517C /* PKHUDLOTProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C6477D1FA2DB9500BF517C /* PKHUDLOTProgressView.swift */; };
-		F2C647801FA2DE3400BF517C /* newloading.json in Resources */ = {isa = PBXBuildFile; fileRef = F2C6477F1FA2DE3000BF517C /* newloading.json */; };
+		F2C647801FA2DE3400BF517C /* loadingForHourglass.json in Resources */ = {isa = PBXBuildFile; fileRef = F2C6477F1FA2DE3000BF517C /* loadingForHourglass.json */; };
 		F908BEC01BB849290015E5A8 /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908BEBF1BB849290015E5A8 /* PKHUDSuccessView.swift */; };
 		F908BEC31BB84D0B0015E5A8 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908BEC21BB84D0B0015E5A8 /* PKHUDAnimating.swift */; };
 		F908BEC51BB852C60015E5A8 /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908BEC41BB852C60015E5A8 /* PKHUDErrorView.swift */; };
@@ -105,12 +112,15 @@
 		BE678B64EF98ED40AA175F6D /* Pods_PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69C29B43F4B4A9269840F83 /* Pods_PKHUDDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKHUDDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03F8594C06BE601BC56EF08 /* Pods-PKHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-PKHUD/Pods-PKHUD.release.xcconfig"; sourceTree = "<group>"; };
+		F2421B241FBE81B70082C1FF /* loadingForPlanetsOrbit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loadingForPlanetsOrbit.json; sourceTree = "<group>"; };
+		F2421B2B1FBE8BF60082C1FF /* PKHUDPgsCancleTypeForPlanetsBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDPgsCancleTypeForPlanetsBaseView.swift; sourceTree = "<group>"; };
+		F2421B2E1FBE96400082C1FF /* PKHUDPgsTypeForPlanetsBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDPgsTypeForPlanetsBaseView.swift; sourceTree = "<group>"; };
 		F27FE87B1F6BBF34007382A3 /* PKHUDProgressCancleBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDProgressCancleBaseView.swift; sourceTree = "<group>"; };
 		F27FE87D1F6BBFD4007382A3 /* PKHUDProgressCancleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDProgressCancleView.swift; sourceTree = "<group>"; };
 		F2C647751FA2D79B00BF517C /* newloading.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = newloading.json; sourceTree = "<group>"; };
 		F2C6477B1FA2DA6000BF517C /* PKHUDLOTProgressBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDLOTProgressBaseView.swift; sourceTree = "<group>"; };
 		F2C6477D1FA2DB9500BF517C /* PKHUDLOTProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKHUDLOTProgressView.swift; sourceTree = "<group>"; };
-		F2C6477F1FA2DE3000BF517C /* newloading.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = newloading.json; sourceTree = "<group>"; };
+		F2C6477F1FA2DE3000BF517C /* loadingForHourglass.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = loadingForHourglass.json; sourceTree = "<group>"; };
 		F908BEBF1BB849290015E5A8 /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDSuccessView.swift; sourceTree = "<group>"; };
 		F908BEC21BB84D0B0015E5A8 /* PKHUDAnimating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDAnimating.swift; sourceTree = "<group>"; };
 		F908BEC41BB852C60015E5A8 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDErrorView.swift; sourceTree = "<group>"; };
@@ -214,7 +224,9 @@
 				F908BEC11BB84D010015E5A8 /* Protocol */,
 				F935B15C1B2B8C20003C3734 /* PKHUDSquareBaseView.swift */,
 				F2C6477B1FA2DA6000BF517C /* PKHUDLOTProgressBaseView.swift */,
+				F2421B2E1FBE96400082C1FF /* PKHUDPgsTypeForPlanetsBaseView.swift */,
 				F27FE87B1F6BBF34007382A3 /* PKHUDProgressCancleBaseView.swift */,
+				F2421B2B1FBE8BF60082C1FF /* PKHUDPgsCancleTypeForPlanetsBaseView.swift */,
 				F935B15E1B2B8C7E003C3734 /* PKHUDWideBaseView.swift */,
 				F935B1601B2B8C8E003C3734 /* PKHUDTextView.swift */,
 				F935B1661B2B8D8C003C3734 /* PKHUDSystemActivityIndicatorView.swift */,
@@ -281,7 +293,8 @@
 				F996322219514FD8001F73CA /* PKHUD.h */,
 				F996324819514FEF001F73CA /* PKHUD.swift */,
 				F996324619514FEF001F73CA /* PKHUDAssets.swift */,
-				F2C6477F1FA2DE3000BF517C /* newloading.json */,
+				F2421B241FBE81B70082C1FF /* loadingForPlanetsOrbit.json */,
+				F2C6477F1FA2DE3000BF517C /* loadingForHourglass.json */,
 				F935B15B1B2B8C03003C3734 /* Content Views */,
 				F9DB0B91197DB78B00385ACE /* Internal */,
 				F996325419514FF3001F73CA /* Images.xcassets */,
@@ -405,8 +418,9 @@
 					};
 					F99631FB19514FAC001F73CA = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 8R5WWLC62F;
 						LastSwiftMigration = 0800;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					F996321D19514FD8001F73CA = {
 						CreatedOnToolsVersion = 6.0;
@@ -446,9 +460,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F935B15A1B2B865A003C3734 /* Launch Screen.storyboard in Resources */,
+				F2421B2A1FBE825A0082C1FF /* loadingForPlanetsOrbit.json in Resources */,
 				F996320419514FAD001F73CA /* Images.xcassets in Resources */,
 				F935B1581B2B8088003C3734 /* Storyboard.storyboard in Resources */,
 				F2C647761FA2D7C000BF517C /* newloading.json in Resources */,
+				F2421B281FBE82550082C1FF /* loadingForHourglass.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +473,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F996325519514FF3001F73CA /* Images.xcassets in Resources */,
-				F2C647801FA2DE3400BF517C /* newloading.json in Resources */,
+				F2421B261FBE81B70082C1FF /* loadingForPlanetsOrbit.json in Resources */,
+				F2C647801FA2DE3400BF517C /* loadingForHourglass.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,7 +646,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F996325919515052001F73CA /* DemoViewController.swift in Sources */,
+				F2421B2C1FBE8BF60082C1FF /* PKHUDPgsCancleTypeForPlanetsBaseView.swift in Sources */,
 				F996320219514FAC001F73CA /* AppDelegate.swift in Sources */,
+				F2421B2F1FBE96400082C1FF /* PKHUDPgsTypeForPlanetsBaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +661,7 @@
 				3097AF3A1C4843AE007DD42B /* PKHUDRotatingImageView.swift in Sources */,
 				F935B1611B2B8C8E003C3734 /* PKHUDTextView.swift in Sources */,
 				F996325319514FEF001F73CA /* WindowRootViewController.swift in Sources */,
+				F2421B301FBE96400082C1FF /* PKHUDPgsTypeForPlanetsBaseView.swift in Sources */,
 				F908BEC31BB84D0B0015E5A8 /* PKHUDAnimating.swift in Sources */,
 				F908BEC81BB85EA70015E5A8 /* PKHUDProgressView.swift in Sources */,
 				F908BEC01BB849290015E5A8 /* PKHUDSuccessView.swift in Sources */,
@@ -653,6 +673,7 @@
 				F996325219514FEF001F73CA /* Window.swift in Sources */,
 				F935B15F1B2B8C7E003C3734 /* PKHUDWideBaseView.swift in Sources */,
 				F996324D19514FEF001F73CA /* PKHUDAssets.swift in Sources */,
+				F2421B2D1FBE8BF60082C1FF /* PKHUDPgsCancleTypeForPlanetsBaseView.swift in Sources */,
 				F996324F19514FEF001F73CA /* PKHUD.swift in Sources */,
 				F935B1671B2B8D8C003C3734 /* PKHUDSystemActivityIndicatorView.swift in Sources */,
 				F27FE87E1F6BBFD4007382A3 /* PKHUDProgressCancleView.swift in Sources */,
@@ -818,12 +839,15 @@
 			baseConfigurationReference = 60F91108D896355EF2A92461 /* Pods-PKHUD Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R5WWLC62F;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NSExceptional.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -833,12 +857,15 @@
 			baseConfigurationReference = AAC761EC40EB5E05FE5A864A /* Pods-PKHUD Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R5WWLC62F;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NSExceptional.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

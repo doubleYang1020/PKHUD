@@ -16,6 +16,18 @@ class DemoViewController: UIViewController {
 
         HUD.dimsBackground = false
         HUD.allowsInteraction = false
+        
+        NotificationCenter.default.addObserver(
+            self,
+            selector:#selector(resivePKHUDCancleNot(notification:)),
+            name: NSNotification.Name.init("KPKHUDProgressCancle"),
+            object: .none
+        )
+    }
+    @objc fileprivate func resivePKHUDCancleNot(notification: Notification) -> () {
+
+        HUD.hide(afterDelay: 0.1)
+        
     }
 
     @IBAction func showAnimatedSuccessHUD(_ sender: AnyObject) {
@@ -44,7 +56,9 @@ class DemoViewController: UIViewController {
 
     @IBAction func showAnimatedStatusProgressHUD(_ sender: AnyObject) {
 //        HUD.flash(.labeledProgress(title: "Title", subtitle: "Subtitle"), delay: 2.0)
-        HUD.flash(.labeledLotProgress(title: "Title", subtitle: "Subtitle"), delay: 2.0)
+//        HUD.flash(.labeledLotProgress(title: "Title", subtitle: "Subtitle"), delay: 2.0)
+        HUD.flash(.labeledLotProgressTypeForPlanets(title: "Title", subtitle: "Subtitle"), delay: 2.0)
+        
     }
 
     @IBAction func showTextHUD(_ sender: AnyObject) {
@@ -52,8 +66,9 @@ class DemoViewController: UIViewController {
 //            print("License Obtained.")
 //        }
       
-      HUD.flash(.labeledProgressAndCancleBtn(title: "Title", subtitle: "Subtitle"), delay: 2.0)
-      
+//      HUD.flash(.labeledProgressAndCancleBtn(title: "Title", subtitle: "Subtitle"), delay: 2.0)
+//        HUD.flash(.labeledProgressAndCancleBtnTypeForPlanets(title: "Title", subtitle: "Subtitle"), delay: 2.0)
+      HUD.show(.labeledProgressAndCancleBtnTypeForPlanets(title: "Title", subtitle: "Subtitle"))
       
     }
 

@@ -1,25 +1,24 @@
 //
-//  PKHUDProgressCancleBaseView.swift
+//  PKHUDPgsCancleTypeForPlanetsBaseView.swift
 //  PKHUD
 //
-//  Created by huyangyang on 2017/9/15.
+//  Created by huyangyang on 2017/11/17.
 //  Copyright © 2017年 NSExceptional. All rights reserved.
 //
 
 import UIKit
 import Lottie
-class PKHUDProgressCancleBaseView: UIView {
-    
+class PKHUDPgsCancleTypeForPlanetsBaseView: UIView {
+
     /*
-     // Only override draw() if you perform custom drawing.
-     // An empty implementation adversely affects performance during animation.
-     override func draw(_ rect: CGRect) {
-     // Drawing code
-     }
-     */
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+    }
+    */
     
-    //  static let defaultSquareBaseViewFrame = CGRect(origin: CGPoint.zero, size: CGSize(width: 128.0, height: 82.5))
-    static let defaultProgressCancleBaseViewFrame = CGRect(origin: CGPoint.zero, size: CGSize(width: 170.0, height: 112.0))
+    static let defaultProgressCancleTypeForPlanetsBaseViewFrame = CGRect(origin: CGPoint.zero, size: CGSize(width:169.5 , height: 150.0))
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -30,7 +29,10 @@ class PKHUDProgressCancleBaseView: UIView {
     }
     
     public init(image: LOTAnimationView? = nil, title: String? = nil, subtitle: String? = nil) {
-        super.init(frame: PKHUDProgressCancleBaseView.defaultProgressCancleBaseViewFrame)
+        super.init(frame: PKHUDPgsCancleTypeForPlanetsBaseView.defaultProgressCancleTypeForPlanetsBaseViewFrame)
+        
+        self.backgroundColor = UIColor.init(red: 47.0/255.0, green: 48.0/255.0, blue: 49.0/255.0, alpha: 1.0)
+        
         self.imageView = image!
         titleLabel.text = title
         subtitleLabel.text = subtitle
@@ -64,7 +66,7 @@ class PKHUDProgressCancleBaseView: UIView {
     
     open var imageView: LOTAnimationView = {
         let imageView = LOTAnimationView()
-
+        
         return imageView
     }()
     
@@ -106,14 +108,13 @@ class PKHUDProgressCancleBaseView: UIView {
         let viewWidth = bounds.size.width
         let viewHeight = bounds.size.height
         
-
-        
         titleLabel.frame = CGRect(origin: CGPoint.zero, size: CGSize(width: 0, height: 0))
-        imageView.frame = CGRect(origin: CGPoint(x:viewWidth/2 - 15, y:12), size: CGSize(width: 30, height: 30))
+        
+        imageView.frame = CGRect(origin: CGPoint(x:0 ,y: 5 ), size: CGSize(width: viewWidth, height: 84.5))
         imageView.contentMode = .scaleAspectFit
-        subtitleLabel.frame = CGRect(origin: CGPoint(x:0.0, y: 52 ), size: CGSize(width: viewWidth, height: 16.5))
-        lineView.frame = CGRect(origin: CGPoint(x:0.0, y: 80.5 ), size: CGSize(width: viewWidth, height: 1))
+        subtitleLabel.frame = CGRect(origin: CGPoint(x:0.0, y: 90.5 ), size: CGSize(width: viewWidth, height: 16.5))
+        lineView.frame = CGRect(origin: CGPoint(x:0.0, y: 119 ), size: CGSize(width: viewWidth, height: 1))
         cancleBtn.frame = CGRect(origin: CGPoint(x:0.0, y: viewHeight - 30 ), size: CGSize(width: viewWidth, height: 30))
     }
-    
+
 }

@@ -16,8 +16,8 @@ open class PKHUDAssets: NSObject {
     open class var checkmarkImage: UIImage { return PKHUDAssets.bundledImage(named: "checkmark") }
     open class var progressActivityImage: UIImage { return PKHUDAssets.bundledImage(named: "progress_activity") }
     open class var progressCircularImage: UIImage { return PKHUDAssets.bundledImage(named: "progress_circular") }
-    open class var progressLotLoding:LOTAnimationView {return LOTAnimationView(name: "newloading") }
-
+    open class var progressLotLoding:LOTAnimationView {return LOTAnimationView(name: "loadingForHourglass") }
+     open class var progressLotLoding_PlanetsOrbit:LOTAnimationView {return LOTAnimationView(name: "loadingForPlanetsOrbit") }
     internal class func bundledImage(named name: String) -> UIImage {
         let bundle = Bundle(for: PKHUDAssets.self)
         let image = UIImage(named: name, in:bundle, compatibleWith:nil)
